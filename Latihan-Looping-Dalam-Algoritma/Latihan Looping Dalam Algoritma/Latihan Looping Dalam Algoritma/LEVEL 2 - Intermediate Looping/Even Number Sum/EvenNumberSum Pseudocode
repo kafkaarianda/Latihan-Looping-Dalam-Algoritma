@@ -1,0 +1,8 @@
+MULAI
+BACA n
+sum <- 0
+UNTUK i DARI 1 SAMPAI n
+JIKA i MOD 2 = 0 MAKA
+sum <- sum + i
+CETAK sum
+SELESAI

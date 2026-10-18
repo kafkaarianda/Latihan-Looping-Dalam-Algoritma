@@ -1,0 +1,8 @@
+MULAI
+data <- [2, 4, 3, 5, 7, 8, 9]
+target <- 10
+UNTUK i DARI 0 SAMPAI panjang(data) - 1
+UNTUK j DARI i + 1 SAMPAI panjang(data) - 1
+JIKA data[i] + data[j] = target MAKA
+CETAK (data[i], data[j])
+SELESAI

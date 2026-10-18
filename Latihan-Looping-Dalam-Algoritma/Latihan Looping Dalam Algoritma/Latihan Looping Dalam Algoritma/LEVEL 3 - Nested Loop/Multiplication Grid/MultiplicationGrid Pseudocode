@@ -1,0 +1,4 @@
+BACA n
+UNTUK baris DARI 1 SAMPAI n PINDAH BARIS
+UNTUK kolom DARI 1 SAMPAI m CETAK baris * kolom
+Selesai

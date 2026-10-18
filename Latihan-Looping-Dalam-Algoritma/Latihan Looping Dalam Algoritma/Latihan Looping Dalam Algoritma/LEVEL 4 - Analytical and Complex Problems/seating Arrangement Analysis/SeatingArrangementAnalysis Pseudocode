@@ -1,0 +1,14 @@
+kursi <- grid 3 baris x 4 kolom
+kosong <- 0, terisi <- 0
+terisiMax <- 0, barisMax <- 0
+UNTUK i DARI 0 SAMPAI R - 1 terisiBaris <- 0
+UNTUK j DARI 0 SAMPAI C - 1
+JIKA Kursi[i] [j] = 'O' MAKA
+kosong <- kosong + 1
+Selain Itu
+terisi <- terisi + 1
+terisiBaris <- terisiBAris + 1
+JIKA terisiBaris > terisiMax MAKA
+terisi Max <- i + 1
+persen <- terisi / (kosong + terisi) * 100
+CETAK kosong, terisi, persen, barisMax

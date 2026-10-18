@@ -1,0 +1,7 @@
+MULAI
+BACA n
+sum <- 0
+UNTUK i DARI 1 SAMPAI n
+sum <- sum + i
+CETAK sum
+SELESAI

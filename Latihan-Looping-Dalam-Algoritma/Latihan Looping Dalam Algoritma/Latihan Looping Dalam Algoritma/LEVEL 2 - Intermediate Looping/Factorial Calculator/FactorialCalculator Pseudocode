@@ -1,0 +1,10 @@
+MULAI
+BACA n
+JIKA n < 0 MAKA
+CETAK "Hanya untuk bilangan nonnegatif"
+SELAIN ITU
+hasil <- 1
+UNTUK i DARI 1 SAMPAI n
+hasil <- hasil * i
+CETAK n, "! = ", hasil
+SELESAI
